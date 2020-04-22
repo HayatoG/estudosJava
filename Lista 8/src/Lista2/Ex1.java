@@ -12,8 +12,6 @@ public class Ex1 {
         System.out.print("Digite a terceira nota: ");
         double nota2 = leitor.nextDouble();
 
-        double soma = (nota + nota1 + nota2)/3;
-
-        System.out.printf("A nota final do aluno é: %.2f", soma);
+        System.out.printf("A nota final do aluno é: %.2f", (nota + nota1 + nota2)/3);
     }
 }
