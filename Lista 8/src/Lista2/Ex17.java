@@ -10,6 +10,6 @@ public class Ex17 {
 
         double kilometros = (distancia * 225)/1000;
 
-        System.out.printf("Distância percorrida em quilômetros: %.2f", kilometros);
+        System.out.printf("Distância percorrida em quilômetros: %.2f", kilometros );
     }
 }
