@@ -7,7 +7,7 @@ public class Ex1 {
         Scanner leitor = new Scanner(System.in);
         Random random = new Random();
 
-        int tentativas = 0, aleatorio = random.nextInt(10), numero = 0;
+        int tentativas = 1, aleatorio = random.nextInt(10), numero = 0;
 
         System.out.print("Vamos começar, digite um número entre 1 e 10: ");
         numero = leitor.nextInt();
